@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Knapsack - Brand</title>
+    <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css?h=a5485e0ab00205da91ef331b68d4354e">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand bg-light navigation-clean">
+        <div class="container"><a class="navbar-brand" href="#">Knapsack</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"></button>
+            <div class="collapse navbar-collapse" id="navcol-1"></div>
+        </div>
+    </nav>
+    <header class="text-center text-white masthead" style="background: url('/static/assets/img/Formulated-the-optimization-problem-into-multiple-choice-knapsack-problem.jpg')no-repeat center center;background-size: cover;">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto position-relative">
+                    <h1 class="mb-5">Knapsack Problem</h1>
+                </div>
+                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto position-relative">
+
+                    <form action="/result" method="POST">
+                        <div class="form-group">
+                            <label for="capacity">Capacity:</label>
+                            <input type="number" class="form-control" id="capacity" name="capacity" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="weights">Weights:</label>
+                            <input type="text" class="form-control" id="weights" name="weights" placeholder="Enter weights separated by space" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="values">Values:</label>
+                            <input type="text" class="form-control" id="values" name="values" placeholder="Enter values separated by space" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <p class="text-muted small mb-4 mb-lg-0" style="margin-right: 13px;margin-left: 394px;padding-left: 0px;">© Prajyot. All Rights Reserved.</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
